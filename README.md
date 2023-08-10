@@ -35,14 +35,6 @@ You can install Pygame using pip: `pip install pygame`
 
 Minesweeper with Pygame uses custom-designed assets for an enhanced gaming experience, including tiles for numbers, mines, flags, and more.
 
-## Contributing
-
-Contributions are welcome! Please read the [CONTRIBUTING.md](path_to_contributing_guide.md) for details on our code of conduct, and the process for submitting pull requests.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](path_to_license_file.md) file for details.
-
 ## Acknowledgments
 
 - Thanks to Pygame for the excellent game development library.
