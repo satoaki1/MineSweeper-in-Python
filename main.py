@@ -1,5 +1,4 @@
 import pygame
-import messages
 from constants import WIDTH, HEIGHT, TILE_SIZE
 from board import Board
 
