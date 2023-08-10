@@ -31,14 +31,13 @@ def main():
 
                 # Check game state after every click
                 if board.is_game_over():
-                    # Display game over screen (this could be a simple message using pygame's text rendering or a
-                    # separate screen)
-                    messages.game_over_popup(WIN)
-                    main()
+                    # Display game over screen (this could be a simple message using pygame's text rendering or a separate screen)
+                    print("Game Over!")  # Replace with your desired action
+                    run = False
                 elif board.is_win():
                     # Display win screen
-                    messages.win_popup(WIN)
-                    main()
+                    print("You Won!")
+                    run = False
 
         for x in range(WIDTH // TILE_SIZE):
             for y in range(HEIGHT // TILE_SIZE):
