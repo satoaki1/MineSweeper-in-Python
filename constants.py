@@ -13,6 +13,7 @@ MINE = pygame.image.load(os.path.join("assets", "mine.png"))
 MINE_CLICKED = pygame.image.load(os.path.join("assets", "mineClicked.png"))
 MINE_FALSE = pygame.image.load(os.path.join("assets", "mineFalse.png"))
 
+# Load number grids from 1 to 8
 NUMBERS = [
     None,  # No zero image
     pygame.image.load(os.path.join("assets", "grid1.png")),
